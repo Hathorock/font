@@ -1,0 +1,15 @@
+{
+  "font": "hathorock",
+  "description": "Icon font set for use with GIS and spatial analysis tools",
+  "version": "1.0.0",
+  "prefix": "h",
+  "copyright": "Jean-Marc Viglino",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/Viglino/font-gis",
+  "glyphs": {
+    "h-A": { "name": "A", "code": 65, "theme": "svg", "search": "", "order": 114605400, "version": 100000, "date": "2024-08-19" },
+    "h-B": { "name": "B", "code": 66, "theme": "svg", "search": "", "order": 114605400, "version": 100000, "date": "2024-08-19" },
+    "h-C": { "name": "C", "code": 67, "theme": "svg", "search": "", "order": 114605400, "version": 100000, "date": "2024-08-19" },
+    "h-D": { "name": "D", "code": 68, "theme": "svg", "search": "", "order": 114605400, "version": 100000, "date": "2024-08-19" }
+  }
+}

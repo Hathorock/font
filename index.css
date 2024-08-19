@@ -1,0 +1,57 @@
+body {
+  font-family: hathorock, sans-serif;
+}
+input {
+  display: block;
+  width: 100%;
+  font-size: 1em;
+}
+.char {
+  max-width: 34em;
+  margin: auto;
+}
+.char div {
+  display: inline-block;
+  width: 1.4em;
+  height: 1.4em;
+  border: 1px solid #999;
+  text-align: center;
+  margin: .1em;
+  line-height: 1.4em;
+  cursor: pointer;
+  vertical-align: middle;
+  font-size: 2em;
+  background-color: #eee;
+  opacity: .3;
+}
+.char div.rock {
+  display: inline-block;
+  background-color: #fff;
+  opacity: 1;
+}
+
+p.result {
+  display: block;
+  font-size: 4em;
+  margin: 0 0 .5em;
+  border-left: 1px solid #ccc;
+  position: relative;
+}
+p.result:before,
+p.result:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20%;
+  height: 1px;
+  background-color: #ccc;
+  z-index: -1;
+}
+p.result:after {
+  top: 80%
+}
+
+p span {
+  border-right: 1px solid #ccc;
+}

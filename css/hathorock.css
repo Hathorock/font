@@ -1,0 +1,170 @@
+/* hathorock - v.1.0.0 
+ * Icon font set for use with GIS and spatial analysis tools
+ * 2024 (c) Jean-Marc Viglino - Apache-2.0
+ * https://github.com/Viglino/font-gis
+ */
+@font-face {
+  font-family: "hathorock";
+  src: url('../fonts/hathorock.eot?t=1724069700305');
+  src: url('../fonts/hathorock.eot?#iefix') format('eot'),
+    url('../fonts/hathorock.woff2?t=1724069700305') format('woff2'),
+    url('../fonts/hathorock.woff?t=1724069700305') format('woff'),
+    url('../fonts/hathorock.ttf?t=1724069700305') format('truetype'),
+    url('../fonts/hathorock.svg#hathorock') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-gis {
+  width: 1em;
+  height: 1em;
+}
+
+[class^="h-"]:before, [class*="h-"]:before {
+  font-family: "hathorock";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="h-"] {
+  display: inline-block;
+}
+.h-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.h-2x { font-size: 2em; }
+.h-3x { font-size: 3em; }
+.h-4x { font-size: 4em; }
+.h-5x { font-size: 5em; }
+.h-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+.h-rotate10 {
+  -webkit-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+.h-rotate-10 {
+  -webkit-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+.h-rotate20 {
+  -webkit-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+.h-rotate-20 {
+  -webkit-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+.h-rotate45 {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.h-rotate90 {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.h-rotate135 {
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+.h-rotate180 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.h-rotate225 {
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+.h-rotate270 {
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.h-rotate315 {
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
+
+.h-fliph {
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.h-flipv {
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+.h-stack {
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  vertical-align: middle;
+}
+.h-stack [class^="h-"] {
+  position: absolute;
+}
+
+.h-spin {
+  -webkit-animation: h-spin 2s infinite linear;
+  animation: h-spin 2s infinite linear;
+}
+.h-pulse {
+  -webkit-animation: h-spin 1s infinite steps(8);
+  animation: h-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes h-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes h-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+.h-A:before { content: "\41"; }
+.h-B:before { content: "\42"; }
+.h-C:before { content: "\43"; }
+.h-D:before { content: "\44"; }
