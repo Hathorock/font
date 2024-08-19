@@ -43,13 +43,13 @@ p.result:after {
   position: absolute;
   left: 0;
   right: 0;
-  top: 20%;
+  top: 17%;
   height: 1px;
   background-color: #ccc;
   z-index: -1;
 }
 p.result:after {
-  top: 80%
+  top: 79%
 }
 
 p span {
