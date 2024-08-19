@@ -39,8 +39,9 @@ function update(e) {
 document.querySelector('input').addEventListener('keyup', update)
 document.querySelector('input').addEventListener('change', update)
 
+// Get initial query
 document.location.search.replace(/^\?/,'').split('&').forEach(function(s) {
-  var t = s.split('=')
+  var t = decodeURI(s).split('=')
   if (t[0]==='q') {
     input.value = t[1];
     update(t[1])
