@@ -5,11 +5,11 @@
  */
 @font-face {
   font-family: "hathorock";
-  src: url('../fonts/hathorock.eot?t=1724069700305');
+  src: url('../fonts/hathorock.eot?t=1724140017654');
   src: url('../fonts/hathorock.eot?#iefix') format('eot'),
-    url('../fonts/hathorock.woff2?t=1724069700305') format('woff2'),
-    url('../fonts/hathorock.woff?t=1724069700305') format('woff'),
-    url('../fonts/hathorock.ttf?t=1724069700305') format('truetype'),
+    url('../fonts/hathorock.woff2?t=1724140017654') format('woff2'),
+    url('../fonts/hathorock.woff?t=1724140017654') format('woff'),
+    url('../fonts/hathorock.ttf?t=1724140017654') format('truetype'),
     url('../fonts/hathorock.svg#hathorock') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -167,4 +167,26 @@
 .h-A:before { content: "\41"; }
 .h-B:before { content: "\42"; }
 .h-C:before { content: "\43"; }
-.h-D:before { content: "\44"; }
+.h-D:before { content: "\44"; }
+.h-E:before { content: "\45"; }
+.h-F:before { content: "\46"; }
+.h-G:before { content: "\47"; }
+.h-H:before { content: "\48"; }
+.h-I:before { content: "\49"; }
+.h-J:before { content: "\4a"; }
+.h-K:before { content: "\4b"; }
+.h-L:before { content: "\4c"; }
+.h-M:before { content: "\4d"; }
+.h-N:before { content: "\4e"; }
+.h-O:before { content: "\4f"; }
+.h-P:before { content: "\50"; }
+.h-Q:before { content: "\51"; }
+.h-R:before { content: "\52"; }
+.h-S:before { content: "\53"; }
+.h-T:before { content: "\54"; }
+.h-U:before { content: "\55"; }
+.h-V:before { content: "\56"; }
+.h-W:before { content: "\57"; }
+.h-X:before { content: "\58"; }
+.h-Y:before { content: "\59"; }
+.h-Z:before { content: "\5a"; }

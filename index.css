@@ -6,6 +6,11 @@ input {
   width: 100%;
   font-size: 1em;
 }
+h1 {
+  font-weight: normal;
+  font-size: 4em;
+  margin: .2em 0;
+}
 .char {
   max-width: 34em;
   margin: auto;
