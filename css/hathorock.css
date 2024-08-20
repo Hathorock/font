@@ -5,11 +5,11 @@
  */
 @font-face {
   font-family: "hathorock";
-  src: url('../fonts/hathorock.eot?t=1724151413691');
+  src: url('../fonts/hathorock.eot?t=1724160266982');
   src: url('../fonts/hathorock.eot?#iefix') format('eot'),
-    url('../fonts/hathorock.woff2?t=1724151413691') format('woff2'),
-    url('../fonts/hathorock.woff?t=1724151413691') format('woff'),
-    url('../fonts/hathorock.ttf?t=1724151413691') format('truetype'),
+    url('../fonts/hathorock.woff2?t=1724160266982') format('woff2'),
+    url('../fonts/hathorock.woff?t=1724160266982') format('woff'),
+    url('../fonts/hathorock.ttf?t=1724160266982') format('truetype'),
     url('../fonts/hathorock.svg#hathorock') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -165,20 +165,20 @@
 }
 
 .h-space:before { content: "\20"; }
-.h-!:before { content: "\21"; }
-.h-dcute:before { content: "\22"; }
-.h-#:before { content: "\23"; }
-.h-$:before { content: "\24"; }
-.h-%:before { content: "\25"; }
-.h-&:before { content: "\26"; }
-.h-cute:before { content: "\27"; }
-.h-(:before { content: "\28"; }
-.h-):before { content: "\29"; }
-.h-star:before { content: "\2a"; }
-.h-+:before { content: "\2b"; }
+.h-exclam:before { content: "\21"; }
+.h-quotedbl:before { content: "\22"; }
+.h-numbersign:before { content: "\23"; }
+.h-dollar:before { content: "\24"; }
+.h-percent:before { content: "\25"; }
+.h-ampersand:before { content: "\26"; }
+.h-quotesingle:before { content: "\27"; }
+.h-parenleft:before { content: "\28"; }
+.h-parenright:before { content: "\29"; }
+.h-asterisk:before { content: "\2a"; }
+.h-plus:before { content: "\2b"; }
 .h-coma:before { content: "\2c"; }
-.h--:before { content: "\2d"; }
-.h-.:before { content: "\2e"; }
+.h-hyphen:before { content: "\2d"; }
+.h-period:before { content: "\2e"; }
 .h-slash:before { content: "\2f"; }
 .h-0:before { content: "\30"; }
 .h-1:before { content: "\31"; }
@@ -190,13 +190,13 @@
 .h-7:before { content: "\37"; }
 .h-8:before { content: "\38"; }
 .h-9:before { content: "\39"; }
-.h-..:before { content: "\3a"; }
-.h-;:before { content: "\3b"; }
-.h-inf:before { content: "\3c"; }
-.h-=:before { content: "\3d"; }
-.h-sup:before { content: "\3e"; }
-.h-interro:before { content: "\3f"; }
-.h-@:before { content: "\40"; }
+.h-colon:before { content: "\3a"; }
+.h-semicolon:before { content: "\3b"; }
+.h-less:before { content: "\3c"; }
+.h-equal:before { content: "\3d"; }
+.h-greater:before { content: "\3e"; }
+.h-question:before { content: "\3f"; }
+.h-at:before { content: "\40"; }
 .h-A:before { content: "\41"; }
 .h-B:before { content: "\42"; }
 .h-C:before { content: "\43"; }
@@ -223,12 +223,12 @@
 .h-X:before { content: "\58"; }
 .h-Y:before { content: "\59"; }
 .h-Z:before { content: "\5a"; }
-.h-[:before { content: "\5b"; }
+.h-bracketleft:before { content: "\5b"; }
 .h-backslash:before { content: "\5c"; }
-.h-]:before { content: "\5d"; }
-.h-^:before { content: "\5e"; }
-.h-_:before { content: "\5f"; }
-.h-`:before { content: "\60"; }
+.h-bracketright:before { content: "\5d"; }
+.h-asciicircum:before { content: "\5e"; }
+.h-underscore:before { content: "\5f"; }
+.h-grave:before { content: "\60"; }
 .h-a:before { content: "\61"; }
 .h-b:before { content: "\62"; }
 .h-c:before { content: "\63"; }
@@ -255,6 +255,6 @@
 .h-x:before { content: "\78"; }
 .h-y:before { content: "\79"; }
 .h-z:before { content: "\7a"; }
-.h-£:before { content: "\a3"; }
-.h-Ō:before { content: "\14c"; }
-.h-€:before { content: "\20ac"; }
+.h-sterling:before { content: "\a3"; }
+.h-Omacron:before { content: "\14c"; }
+.h-euro:before { content: "\20ac"; }
