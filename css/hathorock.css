@@ -5,11 +5,11 @@
  */
 @font-face {
   font-family: "hathorock";
-  src: url('../fonts/hathorock.eot?t=1724147659250');
+  src: url('../fonts/hathorock.eot?t=1724151074415');
   src: url('../fonts/hathorock.eot?#iefix') format('eot'),
-    url('../fonts/hathorock.woff2?t=1724147659250') format('woff2'),
-    url('../fonts/hathorock.woff?t=1724147659250') format('woff'),
-    url('../fonts/hathorock.ttf?t=1724147659250') format('truetype'),
+    url('../fonts/hathorock.woff2?t=1724151074415') format('woff2'),
+    url('../fonts/hathorock.woff?t=1724151074415') format('woff'),
+    url('../fonts/hathorock.ttf?t=1724151074415') format('truetype'),
     url('../fonts/hathorock.svg#hathorock') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -165,8 +165,35 @@
 }
 
 .h-!:before { content: "\21"; }
+.h-dcute:before { content: "\22"; }
+.h-#:before { content: "\23"; }
 .h-$:before { content: "\24"; }
+.h-%:before { content: "\25"; }
 .h-&:before { content: "\26"; }
+.h-cute:before { content: "\27"; }
+.h-(:before { content: "\28"; }
+.h-):before { content: "\29"; }
+.h-star:before { content: "\2a"; }
+.h-+:before { content: "\2b"; }
+.h-coma:before { content: "\2c"; }
+.h--:before { content: "\2d"; }
+.h-.:before { content: "\2e"; }
+.h-slash:before { content: "\2f"; }
+.h-0:before { content: "\30"; }
+.h-1:before { content: "\31"; }
+.h-2:before { content: "\32"; }
+.h-3:before { content: "\33"; }
+.h-4:before { content: "\34"; }
+.h-5:before { content: "\35"; }
+.h-6:before { content: "\36"; }
+.h-7:before { content: "\37"; }
+.h-8:before { content: "\38"; }
+.h-9:before { content: "\39"; }
+.h-..:before { content: "\3a"; }
+.h-;:before { content: "\3b"; }
+.h-inf:before { content: "\3c"; }
+.h-=:before { content: "\3d"; }
+.h-sup:before { content: "\3e"; }
 .h-interro:before { content: "\3f"; }
 .h-@:before { content: "\40"; }
 .h-A:before { content: "\41"; }
@@ -228,4 +255,5 @@
 .h-y:before { content: "\79"; }
 .h-z:before { content: "\7a"; }
 .h-£:before { content: "\a3"; }
+.h-Ō:before { content: "\14c"; }
 .h-€:before { content: "\20ac"; }
