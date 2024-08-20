@@ -5,11 +5,11 @@
  */
 @font-face {
   font-family: "hathorock";
-  src: url('../fonts/hathorock.eot?t=1724140017654');
+  src: url('../fonts/hathorock.eot?t=1724147659250');
   src: url('../fonts/hathorock.eot?#iefix') format('eot'),
-    url('../fonts/hathorock.woff2?t=1724140017654') format('woff2'),
-    url('../fonts/hathorock.woff?t=1724140017654') format('woff'),
-    url('../fonts/hathorock.ttf?t=1724140017654') format('truetype'),
+    url('../fonts/hathorock.woff2?t=1724147659250') format('woff2'),
+    url('../fonts/hathorock.woff?t=1724147659250') format('woff'),
+    url('../fonts/hathorock.ttf?t=1724147659250') format('truetype'),
     url('../fonts/hathorock.svg#hathorock') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -164,6 +164,11 @@
   }
 }
 
+.h-!:before { content: "\21"; }
+.h-$:before { content: "\24"; }
+.h-&:before { content: "\26"; }
+.h-interro:before { content: "\3f"; }
+.h-@:before { content: "\40"; }
 .h-A:before { content: "\41"; }
 .h-B:before { content: "\42"; }
 .h-C:before { content: "\43"; }
@@ -189,4 +194,38 @@
 .h-W:before { content: "\57"; }
 .h-X:before { content: "\58"; }
 .h-Y:before { content: "\59"; }
-.h-Z:before { content: "\5a"; }
+.h-Z:before { content: "\5a"; }
+.h-[:before { content: "\5b"; }
+.h-backslash:before { content: "\5c"; }
+.h-]:before { content: "\5d"; }
+.h-^:before { content: "\5e"; }
+.h-_:before { content: "\5f"; }
+.h-`:before { content: "\60"; }
+.h-a:before { content: "\61"; }
+.h-b:before { content: "\62"; }
+.h-c:before { content: "\63"; }
+.h-d:before { content: "\64"; }
+.h-e:before { content: "\65"; }
+.h-f:before { content: "\66"; }
+.h-g:before { content: "\67"; }
+.h-h:before { content: "\68"; }
+.h-i:before { content: "\69"; }
+.h-j:before { content: "\6a"; }
+.h-k:before { content: "\6b"; }
+.h-l:before { content: "\6c"; }
+.h-m:before { content: "\6d"; }
+.h-n:before { content: "\6e"; }
+.h-o:before { content: "\6f"; }
+.h-p:before { content: "\70"; }
+.h-q:before { content: "\71"; }
+.h-r:before { content: "\72"; }
+.h-s:before { content: "\73"; }
+.h-t:before { content: "\74"; }
+.h-u:before { content: "\75"; }
+.h-v:before { content: "\76"; }
+.h-w:before { content: "\77"; }
+.h-x:before { content: "\78"; }
+.h-y:before { content: "\79"; }
+.h-z:before { content: "\7a"; }
+.h-£:before { content: "\a3"; }
+.h-€:before { content: "\20ac"; }

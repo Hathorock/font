@@ -3,8 +3,8 @@ var input = document.querySelector('input')
 function showChar(a,z) {
   for (var i=a; i<z; i++) {
     var d = document.createElement('DIV')
-    var c = d.innerText = String.fromCharCode(i)
-    d.className = glyphs['h-'+c] ? 'rock' : ''
+    d.innerText = String.fromCharCode(i)
+    d.className = glyphs[i] ? 'rock' : ''
     d.title = '0x' + i.toString(16);
     char.appendChild(d);
     d.addEventListener('click', function(e) {
@@ -14,9 +14,12 @@ function showChar(a,z) {
   }
 }
 
-var glyphs;
+var glyphs = [];
 fetch('./hathorock.json').then(function(resp) { resp.json().then(function(json) {
-  glyphs = json.glyphs
+  for (var i in json.glyphs) {
+    var g = json.glyphs[i]
+    glyphs[g.code] = g
+  }
   showChar(32,127)
   showChar(161,2000)
 })});

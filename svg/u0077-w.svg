@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.1"
-   width="37"
+   width="49"
    height="100"
    id="svg4460"
-   sodipodi:docname="u0042-B.svg"
+   sodipodi:docname="w.svg"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -26,9 +26,9 @@
      inkscape:window-height="1541"
      id="namedview11"
      showgrid="true"
-     inkscape:zoom="22.627416"
-     inkscape:cx="8.9272235"
-     inkscape:cy="30.737049"
+     inkscape:zoom="16"
+     inkscape:cx="-1.125"
+     inkscape:cy="50.90625"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
@@ -56,6 +56,30 @@
        position="50,86"
        orientation="0,-50"
        id="guide963" />
+    <sodipodi:guide
+       position="8.9999971,64.32985"
+       orientation="8.5387222,0"
+       id="guide1517" />
+    <sodipodi:guide
+       position="8.9999971,55.791128"
+       orientation="0,26.227758"
+       id="guide1519" />
+    <sodipodi:guide
+       position="35,93.437165"
+       orientation="-8.5387222,0"
+       id="guide1521" />
+    <sodipodi:guide
+       position="35.227755,64.32985"
+       orientation="0,-26.227758"
+       id="guide1523" />
+    <sodipodi:guide
+       position="7.9247812,20.000001"
+       orientation="0,-6.8495616"
+       id="guide4054" />
+    <sodipodi:guide
+       position="1.0752196,74.999813"
+       orientation="0,6.8495616"
+       id="guide4058" />
   </sodipodi:namedview>
   <defs
      id="defs4462" />
@@ -80,10 +104,9 @@
        id="text5282"
        transform="matrix(1.6290909,0,0,2.8292029,-41.002727,-68.776958)">
       <path
-         d="m 56.852512,30.671966 c 4.8422,-9.1e-5 8.253208,1.891402 8.214019,4.898888 -0.01571,1.31967 -1.210641,2.008063 -3.509848,2.580665 5.896701,0.956463 8.940346,4.57735 8.993982,7.523297 C 70.439732,49.405067 65.529018,54 58.948671,54 H 48.955357 V 30.671963 Z m -2.851751,9.812358 v 10.48304 h 4.94791 c 3.828656,0.01281 6.546341,-2.30713 6.434722,-5.29255 -0.111619,-2.98542 -4.15125,-5.215777 -8.677126,-5.19049 z m 0,-6.794291 v 3.688745 h 3.290479 c 0.747469,-0.03889 1.389318,-0.208993 1.925547,-0.5103 0.584973,-0.320762 0.87746,-0.753303 0.87746,-1.297624 0,-0.544321 -0.308737,-0.991442 -0.926211,-1.341363 -0.601225,-0.359639 -1.373066,-0.539458 -2.315524,-0.539458 z"
+         d="M 61.268166,50.367079 V 34.559896 h 4.20453 v 15.807183 q 0.203234,0.206551 0.690555,0.510302 1.320255,0.7533 3.128016,0.7533 1.807715,0 3.127994,-0.765451 1.320255,-0.777602 1.320255,-1.858956 V 34.559896 h 4.224831 v 14.543581 q -0.0812,2.053354 -2.538987,3.523507 -2.538939,1.5309 -6.134093,1.5309 -3.574853,0 -5.910675,-1.5066 -2.356168,1.5066 -5.931021,1.5066 -3.59513,0 -6.113793,-1.5309 -2.477993,-1.458004 -2.538963,-3.523507 V 34.559896 h 4.20453 v 14.446378 q 0,1.081354 1.320232,1.858956 1.320279,0.765451 3.127994,0.765451 1.828062,0 3.127993,-0.7533 0.507784,-0.303751 0.690602,-0.510302 z"
          style="font-weight:bold;font-size:12.7px;line-height:1;font-family:'Caviar Dreams';-inkscape-font-specification:'Caviar Dreams Bold';text-align:center;text-anchor:middle;fill:#000000;stroke:#ffffff;stroke-width:0;stroke-linecap:round"
-         id="path454"
-         sodipodi:nodetypes="ccccccccccczccccccscsc" />
+         id="path496-8" />
     </g>
   </g>
 </svg>
