@@ -7,6 +7,7 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/Viglino/font-gis",
   "glyphs": {
+    "h-space": { "name": "space", "code": 32, "theme": "svg", "search": "", "order": 114692139, "version": 100000, "date": "2024-08-20" },
     "h-!": { "name": "!", "code": 33, "theme": "svg", "search": "", "order": 114687606, "version": 100000, "date": "2024-08-20" },
     "h-dcute": { "name": "dcute", "code": 34, "theme": "svg", "search": "", "order": 114691415, "version": 100000, "date": "2024-08-20" },
     "h-#": { "name": "#", "code": 35, "theme": "svg", "search": "", "order": 114691415, "version": 100000, "date": "2024-08-20" },
@@ -90,7 +91,7 @@
     "h-q": { "name": "q", "code": 113, "theme": "svg", "search": "", "order": 114686874, "version": 100000, "date": "2024-08-20" },
     "h-r": { "name": "r", "code": 114, "theme": "svg", "search": "", "order": 114686874, "version": 100000, "date": "2024-08-20" },
     "h-s": { "name": "s", "code": 115, "theme": "svg", "search": "", "order": 114686874, "version": 100000, "date": "2024-08-20" },
-    "h-t": { "name": "t", "code": 116, "theme": "svg", "search": "", "order": 114686874, "version": 100000, "date": "2024-08-20" },
+    "h-t": { "name": "t", "code": 116, "theme": "svg", "search": "", "order": 114692214, "version": 100000, "date": "2024-08-20" },
     "h-u": { "name": "u", "code": 117, "theme": "svg", "search": "", "order": 114686959, "version": 100000, "date": "2024-08-20" },
     "h-v": { "name": "v", "code": 118, "theme": "svg", "search": "", "order": 114686874, "version": 100000, "date": "2024-08-20" },
     "h-w": { "name": "w", "code": 119, "theme": "svg", "search": "", "order": 114686874, "version": 100000, "date": "2024-08-20" },

@@ -5,11 +5,11 @@
  */
 @font-face {
   font-family: "hathorock";
-  src: url('../fonts/hathorock.eot?t=1724151074415');
+  src: url('../fonts/hathorock.eot?t=1724151413691');
   src: url('../fonts/hathorock.eot?#iefix') format('eot'),
-    url('../fonts/hathorock.woff2?t=1724151074415') format('woff2'),
-    url('../fonts/hathorock.woff?t=1724151074415') format('woff'),
-    url('../fonts/hathorock.ttf?t=1724151074415') format('truetype'),
+    url('../fonts/hathorock.woff2?t=1724151413691') format('woff2'),
+    url('../fonts/hathorock.woff?t=1724151413691') format('woff'),
+    url('../fonts/hathorock.ttf?t=1724151413691') format('truetype'),
     url('../fonts/hathorock.svg#hathorock') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -164,6 +164,7 @@
   }
 }
 
+.h-space:before { content: "\20"; }
 .h-!:before { content: "\21"; }
 .h-dcute:before { content: "\22"; }
 .h-#:before { content: "\23"; }

@@ -7,6 +7,9 @@
       units-per-em="1000" ascent="800"
       descent="200" />
     <missing-glyph horiz-adv-x="0" />
+    <glyph glyph-name="space"
+      unicode="&#x20;"
+      horiz-adv-x="330" d="" />
     <glyph glyph-name="!"
       unicode="&#x21;"
       horiz-adv-x="110" d="M12.314510554779 628.847621591696V156.601600248336H97.6855041147421V628.847621591696zM12.314510554779 85.3710983393841V0.0000139999999H97.6855041147421V85.3710983393839z" />
