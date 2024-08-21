@@ -5,11 +5,11 @@
  */
 @font-face {
   font-family: "hathorock";
-  src: url('../fonts/hathorock.eot?t=1724160266982');
+  src: url('../fonts/hathorock.eot?t=1724231855347');
   src: url('../fonts/hathorock.eot?#iefix') format('eot'),
-    url('../fonts/hathorock.woff2?t=1724160266982') format('woff2'),
-    url('../fonts/hathorock.woff?t=1724160266982') format('woff'),
-    url('../fonts/hathorock.ttf?t=1724160266982') format('truetype'),
+    url('../fonts/hathorock.woff2?t=1724231855347') format('woff2'),
+    url('../fonts/hathorock.woff?t=1724231855347') format('woff'),
+    url('../fonts/hathorock.ttf?t=1724231855347') format('truetype'),
     url('../fonts/hathorock.svg#hathorock') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -257,4 +257,8 @@
 .h-z:before { content: "\7a"; }
 .h-sterling:before { content: "\a3"; }
 .h-Omacron:before { content: "\14c"; }
-.h-euro:before { content: "\20ac"; }
+.h-euro:before { content: "\20ac"; }
+.h-ankh:before { content: "\2625"; }
+.h-hathor:before { content: "\263f"; }
+.h-coffin:before { content: "\26b0"; }
+.h-funeral:before { content: "\26b1"; }

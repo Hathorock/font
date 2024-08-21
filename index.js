@@ -1,16 +1,18 @@
 var char = document.querySelector('.char')
 var input = document.querySelector('input')
-function showChar(a,z) {
+function showChar(a,z, hide) {
   for (var i=a; i<z; i++) {
-    var d = document.createElement('DIV')
-    d.innerText = String.fromCharCode(i)
-    d.className = glyphs[i] ? 'rock' : ''
-    d.title = '0x' + i.toString(16);
-    char.appendChild(d);
-    d.addEventListener('click', function(e) {
-      input.value = input.value + e.target.innerText;
-      update(input.value)
-    })
+    if (!hide || glyphs[i]) {
+      var d = document.createElement('DIV')
+      d.innerText = String.fromCharCode(i)
+      d.className = glyphs[i] ? 'rock' : ''
+      d.title = (glyphs[i] ? glyphs[i].name + ' - ' : '') + '0x' + i.toString(16) + ' - ' + i;
+      char.appendChild(d);
+      d.addEventListener('click', function(e) {
+        input.value = input.value + e.target.innerText;
+        update(input.value)
+      })
+    }
   }
 }
 
@@ -20,8 +22,9 @@ fetch('./hathorock.json').then(function(resp) { resp.json().then(function(json) 
     var g = json.glyphs[i]
     glyphs[g.code] = g
   }
-  showChar(32,127)
-  showChar(161,2000)
+  showChar(32,256)
+  //showChar(161,256)
+  showChar(256, 10000, true)
 })});
 
 function update(e) {
