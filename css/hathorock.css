@@ -5,11 +5,11 @@
  */
 @font-face {
   font-family: "hathorock";
-  src: url('../fonts/hathorock.eot?t=1724316033413');
+  src: url('../fonts/hathorock.eot?t=1724325162175');
   src: url('../fonts/hathorock.eot?#iefix') format('eot'),
-    url('../fonts/hathorock.woff2?t=1724316033413') format('woff2'),
-    url('../fonts/hathorock.woff?t=1724316033413') format('woff'),
-    url('../fonts/hathorock.ttf?t=1724316033413') format('truetype'),
+    url('../fonts/hathorock.woff2?t=1724325162175') format('woff2'),
+    url('../fonts/hathorock.woff?t=1724325162175') format('woff'),
+    url('../fonts/hathorock.ttf?t=1724325162175') format('truetype'),
     url('../fonts/hathorock.svg#hathorock') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -266,7 +266,12 @@
 .h-Ccedil:before { content: "\c7"; }
 .h-Omacron:before { content: "\14c"; }
 .h-euro:before { content: "\20ac"; }
+.h-bug:before { content: "\260e"; }
+.h-hand:before { content: "\261a"; }
 .h-ankh:before { content: "\2625"; }
+.h-eye:before { content: "\263c"; }
 .h-hathor:before { content: "\263f"; }
+.h-female-:before { content: "\2640"; }
 .h-coffin:before { content: "\26b0"; }
-.h-funeral:before { content: "\26b1"; }
+.h-funeral:before { content: "\26b1"; }
+.h-scribe:before { content: "\270d"; }

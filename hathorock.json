@@ -109,9 +109,14 @@
     "h-Ccedil": { "name": "Ccedil", "code": 199, "theme": "svg", "search": "", "order": 114856833, "version": 100000, "date": "2024-08-22" },
     "h-Omacron": { "name": "Omacron", "code": 332, "theme": "svg", "search": "", "order": 114701067, "version": 100000, "date": "2024-08-20" },
     "h-euro": { "name": "euro", "code": 8364, "theme": "svg", "search": "", "order": 114700804, "version": 100000, "date": "2024-08-20" },
+    "h-bug": { "name": "bug", "code": 9742, "theme": "svg", "search": "", "order": 114858680, "version": 100000, "date": "2024-08-22" },
+    "h-hand": { "name": "hand", "code": 9754, "theme": "svg", "search": "", "order": 114860675, "version": 100000, "date": "2024-08-22" },
     "h-ankh": { "name": "ankh", "code": 9765, "theme": "svg", "search": "", "order": 114770896, "version": 100000, "date": "2024-08-21" },
+    "h-eye": { "name": "eye", "code": 9788, "theme": "svg", "search": "", "order": 114859550, "version": 100000, "date": "2024-08-22" },
     "h-hathor": { "name": "hathor", "code": 9791, "theme": "svg", "search": "", "order": 114770896, "version": 100000, "date": "2024-08-21" },
+    "h-female-": { "name": "female-", "code": 9792, "theme": "svg", "search": "", "order": 114861529, "version": 100000, "date": "2024-08-22" },
     "h-coffin": { "name": "coffin", "code": 9904, "theme": "svg", "search": "", "order": 114770896, "version": 100000, "date": "2024-08-21" },
-    "h-funeral": { "name": "funeral", "code": 9905, "theme": "svg", "search": "", "order": 114770896, "version": 100000, "date": "2024-08-21" }
+    "h-funeral": { "name": "funeral", "code": 9905, "theme": "svg", "search": "", "order": 114770896, "version": 100000, "date": "2024-08-21" },
+    "h-scribe": { "name": "scribe", "code": 9997, "theme": "svg", "search": "", "order": 114865821, "version": 100000, "date": "2024-08-22" }
   }
 }
