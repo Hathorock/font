@@ -26,9 +26,9 @@
      inkscape:window-height="1541"
      id="namedview11"
      showgrid="true"
-     inkscape:zoom="11.313709"
-     inkscape:cx="13.081475"
-     inkscape:cy="10.208854"
+     inkscape:zoom="16.000001"
+     inkscape:cx="9.3124996"
+     inkscape:cy="28.656249"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
@@ -82,8 +82,9 @@
       <path
          id="path452"
          style="font-weight:bold;font-size:12.7px;line-height:1;font-family:'Caviar Dreams';-inkscape-font-specification:'Caviar Dreams Bold';text-align:center;text-anchor:middle;fill:#000000;stroke:#ffffff;stroke-width:0;stroke-linecap:round"
-         d="M 17.375 0 L 29.375 11 C 32.375 11 23.232118 10.999935 38.375 11 L 25.5 0 L 17.375 0 z M 25.5 10.480469 L 0.16601562 80 L 8.9414062 80 L 17.082031 56.652344 L 33.917969 56.652344 L 42.097656 80 L 50.833984 80 L 25.5 10.480469 z M 25.5 32.644531 L 30.939453 48.113281 L 20.099609 48.113281 L 25.5 32.644531 z "
-         transform="matrix(0.61383929,0,0,0.35345645,48.341518,25.723485)" />
+         d="m 13.375,0 16,11 c 3,0 -6.142882,-6.5e-5 9,0 L 25.5,0 Z M 25.5,10.480469 0.16601562,80 H 8.9414062 L 17.082031,56.652344 H 33.917969 L 42.097656,80 h 8.736328 z m 0,22.164062 5.439453,15.46875 H 20.099609 Z"
+         transform="matrix(0.61383929,0,0,0.35345645,48.341518,25.723485)"
+         sodipodi:nodetypes="ccccccccccccccccc" />
     </g>
   </g>
 </svg>

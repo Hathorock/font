@@ -5,11 +5,11 @@
  */
 @font-face {
   font-family: "hathorock";
-  src: url('../fonts/hathorock.eot?t=1724328842818');
+  src: url('../fonts/hathorock.eot?t=1724334378835');
   src: url('../fonts/hathorock.eot?#iefix') format('eot'),
-    url('../fonts/hathorock.woff2?t=1724328842818') format('woff2'),
-    url('../fonts/hathorock.woff?t=1724328842818') format('woff'),
-    url('../fonts/hathorock.ttf?t=1724328842818') format('truetype'),
+    url('../fonts/hathorock.woff2?t=1724334378835') format('woff2'),
+    url('../fonts/hathorock.woff?t=1724334378835') format('woff'),
+    url('../fonts/hathorock.ttf?t=1724334378835') format('truetype'),
     url('../fonts/hathorock.svg#hathorock') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -165,7 +165,7 @@
 }
 
 .h-space:before { content: "\20"; }
-.h-exclam:before { content: "\21"; }
+.h-excl:before { content: "\21"; }
 .h-quotedbl:before { content: "\22"; }
 .h-numbersign:before { content: "\23"; }
 .h-dollar:before { content: "\24"; }
@@ -192,10 +192,10 @@
 .h-9:before { content: "\39"; }
 .h-colon:before { content: "\3a"; }
 .h-semicolon:before { content: "\3b"; }
-.h-less:before { content: "\3c"; }
+.h-lt:before { content: "\3c"; }
 .h-equal:before { content: "\3d"; }
-.h-greater:before { content: "\3e"; }
-.h-question:before { content: "\3f"; }
+.h-gt:before { content: "\3e"; }
+.h-quest:before { content: "\3f"; }
 .h-at:before { content: "\40"; }
 .h-A:before { content: "\41"; }
 .h-B:before { content: "\42"; }
@@ -255,15 +255,36 @@
 .h-x:before { content: "\78"; }
 .h-y:before { content: "\79"; }
 .h-z:before { content: "\7a"; }
+.h-braceleft:before { content: "\7b"; }
+.h-bar:before { content: "\7c"; }
+.h-braceright:before { content: "\7d"; }
+.h-tilde:before { content: "\7e"; }
+.h-iexcl:before { content: "\a1"; }
 .h-sterling:before { content: "\a3"; }
+.h-curren:before { content: "\a4"; }
+.h-yen:before { content: "\a5"; }
+.h-brkbar:before { content: "\a6"; }
+.h-sect:before { content: "\a7"; }
+.h-uml:before { content: "\a8"; }
+.h-copy:before { content: "\a9"; }
+.h-ordf:before { content: "\aa"; }
+.h-laquo:before { content: "\ab"; }
+.h-reg:before { content: "\ae"; }
+.h-para:before { content: "\b6"; }
+.h-raquo:before { content: "\bb"; }
+.h-iquest:before { content: "\bf"; }
 .h-Agrave:before { content: "\c0"; }
-.h-Acute:before { content: "\c1"; }
+.h-Aacute:before { content: "\c1"; }
 .h-Acirc:before { content: "\c2"; }
 .h-Atilde:before { content: "\c3"; }
 .h-Auml:before { content: "\c4"; }
 .h-Aring:before { content: "\c5"; }
 .h-AElig:before { content: "\c6"; }
 .h-Ccedil:before { content: "\c7"; }
+.h-Egrave:before { content: "\c8"; }
+.h-Eacute:before { content: "\c9"; }
+.h-Ecric:before { content: "\ca"; }
+.h-Euml:before { content: "\cb"; }
 .h-Omacron:before { content: "\14c"; }
 .h-euro:before { content: "\20ac"; }
 .h-bug:before { content: "\260e"; }
