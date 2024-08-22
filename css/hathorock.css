@@ -5,11 +5,11 @@
  */
 @font-face {
   font-family: "hathorock";
-  src: url('../fonts/hathorock.eot?t=1724232984041');
+  src: url('../fonts/hathorock.eot?t=1724316033413');
   src: url('../fonts/hathorock.eot?#iefix') format('eot'),
-    url('../fonts/hathorock.woff2?t=1724232984041') format('woff2'),
-    url('../fonts/hathorock.woff?t=1724232984041') format('woff'),
-    url('../fonts/hathorock.ttf?t=1724232984041') format('truetype'),
+    url('../fonts/hathorock.woff2?t=1724316033413') format('woff2'),
+    url('../fonts/hathorock.woff?t=1724316033413') format('woff'),
+    url('../fonts/hathorock.ttf?t=1724316033413') format('truetype'),
     url('../fonts/hathorock.svg#hathorock') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -256,6 +256,14 @@
 .h-y:before { content: "\79"; }
 .h-z:before { content: "\7a"; }
 .h-sterling:before { content: "\a3"; }
+.h-Agrave:before { content: "\c0"; }
+.h-Acute:before { content: "\c1"; }
+.h-Acirc:before { content: "\c2"; }
+.h-Atilde:before { content: "\c3"; }
+.h-Auml:before { content: "\c4"; }
+.h-Aring:before { content: "\c5"; }
+.h-AElig:before { content: "\c6"; }
+.h-Ccedil:before { content: "\c7"; }
 .h-Omacron:before { content: "\14c"; }
 .h-euro:before { content: "\20ac"; }
 .h-ankh:before { content: "\2625"; }

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="51"
+   height="100"
+   id="svg4460"
+   sodipodi:docname="u00c0-Agrave.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2880"
+     inkscape:window-height="1541"
+     id="namedview11"
+     showgrid="true"
+     inkscape:zoom="11.313709"
+     inkscape:cx="13.081475"
+     inkscape:cy="10.208854"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="text5282"
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="0"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid823" />
+    <sodipodi:guide
+       position="0,86"
+       orientation="66,0"
+       id="guide957" />
+    <sodipodi:guide
+       position="0,20"
+       orientation="0,50"
+       id="guide959" />
+    <sodipodi:guide
+       position="50,20"
+       orientation="-66,0"
+       id="guide961" />
+    <sodipodi:guide
+       position="50,86"
+       orientation="0,-50"
+       id="guide963" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4462" />
+  <metadata
+     id="metadata4465">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     aria-label="C"
+     id="text3215"
+     style="font-size:32px;line-height:1.25"
+     transform="translate(-37.75,-4)">
+    <g
+       aria-label="A"
+       id="text5282"
+       transform="matrix(1.6290909,0,0,2.8292029,-41.002727,-68.776958)">
+      <path
+         id="path452"
+         style="font-weight:bold;font-size:12.7px;line-height:1;font-family:'Caviar Dreams';-inkscape-font-specification:'Caviar Dreams Bold';text-align:center;text-anchor:middle;fill:#000000;stroke:#ffffff;stroke-width:0;stroke-linecap:round"
+         d="M 17.375 0 L 29.375 11 C 32.375 11 23.232118 10.999935 38.375 11 L 25.5 0 L 17.375 0 z M 25.5 10.480469 L 0.16601562 80 L 8.9414062 80 L 17.082031 56.652344 L 33.917969 56.652344 L 42.097656 80 L 50.833984 80 L 25.5 10.480469 z M 25.5 32.644531 L 30.939453 48.113281 L 20.099609 48.113281 L 25.5 32.644531 z "
+         transform="matrix(0.61383929,0,0,0.35345645,48.341518,25.723485)" />
+    </g>
+  </g>
+</svg>
