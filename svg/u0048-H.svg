@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.1"
-   width="38"
+   width="39"
    height="100"
    id="svg4460"
-   sodipodi:docname="H.svg"
+   sodipodi:docname="u0048-H.svg"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -26,9 +26,9 @@
      inkscape:window-height="1541"
      id="namedview11"
      showgrid="true"
-     inkscape:zoom="32"
-     inkscape:cx="7.65625"
-     inkscape:cy="54.203125"
+     inkscape:zoom="16"
+     inkscape:cx="24"
+     inkscape:cy="56.34375"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
@@ -96,7 +96,7 @@
        id="text5282"
        transform="matrix(1.6290909,0,0,2.8292029,-41.002727,-68.776958)">
       <path
-         d="M 54.000764,41.349392 V 54 H 48.955357 V 30.671956 h 5.045407 v 7.659373 h 12.040731 v -7.659373 h 5.045401 V 54 H 66.041495 V 41.349392 Z"
+         d="M 54.291022,41.349392 V 54 H 49.245615 V 30.671956 h 5.045407 v 7.659373 h 12.040731 v -7.659373 h 5.045401 V 54 H 66.331753 V 41.349392 Z"
          style="font-weight:bold;font-size:12.7px;line-height:1;font-family:'Caviar Dreams';-inkscape-font-specification:'Caviar Dreams Bold';text-align:center;text-anchor:middle;fill:#000000;stroke:#ffffff;stroke-width:0;stroke-linecap:round"
          id="path466"
          sodipodi:nodetypes="ccccccccccccc" />

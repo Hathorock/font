@@ -4,7 +4,7 @@
    width="42"
    height="100"
    id="svg4460"
-   sodipodi:docname="D.svg"
+   sodipodi:docname="u0044-D.svg"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -26,9 +26,9 @@
      inkscape:window-height="1541"
      id="namedview11"
      showgrid="true"
-     inkscape:zoom="8"
-     inkscape:cx="-113.625"
-     inkscape:cy="21.8125"
+     inkscape:zoom="16"
+     inkscape:cx="-3.3125"
+     inkscape:cy="60.21875"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
@@ -80,7 +80,7 @@
        id="text5282"
        transform="matrix(1.6290909,0,0,2.8292029,-41.002727,-68.776958)">
       <path
-         d="m 54.000759,33.74834 v 17.189854 q 6.020368,0 9.87145,-2.318223 4.338562,-2.595246 4.338562,-6.283994 0,-3.674167 -4.338562,-6.28399 -3.851082,-2.303647 -9.87145,-2.303647 z m -1.340563,-3.076384 q 9.505839,0.02915 14.819356,3.222187 5.825372,3.513785 5.825372,8.441834 0,4.942632 -5.825372,8.441838 Q 62.166035,53.97084 52.660196,54 H 48.955357 V 30.671956 Z"
+         d="m 54.201765,33.74834 v 17.189854 q 6.020368,0 9.87145,-2.318223 4.338562,-2.595246 4.338562,-6.283994 0,-3.674167 -4.338562,-6.28399 -3.851082,-2.303647 -9.87145,-2.303647 z m -1.340563,-3.076384 q 9.505839,0.02915 14.819356,3.222187 5.825372,3.513785 5.825372,8.441834 0,4.942632 -5.825372,8.441838 Q 62.367041,53.97084 52.861202,54 H 49.156363 V 30.671956 Z"
          style="font-weight:bold;font-size:12.7px;line-height:1;font-family:'Caviar Dreams';-inkscape-font-specification:'Caviar Dreams Bold';text-align:center;text-anchor:middle;fill:#000000;stroke:#ffffff;stroke-width:0;stroke-linecap:round"
          id="path458" />
     </g>
