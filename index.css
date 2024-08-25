@@ -43,8 +43,11 @@ p.result {
   border-left: 1px solid #ccc;
   position: relative;
 }
-p.result:before,
-p.result:after {
+p.result span {
+  position: relative;
+}
+p.result span:before,
+p.result span:after {
   content: "";
   position: absolute;
   left: 0;
@@ -54,7 +57,7 @@ p.result:after {
   background-color: #ccc;
   z-index: -1;
 }
-p.result:after {
+p.result span:after {
   top: 79%
 }
 
