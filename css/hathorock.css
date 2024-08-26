@@ -5,11 +5,11 @@
  */
 @font-face {
   font-family: "hathorock";
-  src: url('../fonts/hathorock.eot?t=1724666242147');
+  src: url('../fonts/hathorock.eot?t=1724669789900');
   src: url('../fonts/hathorock.eot?#iefix') format('eot'),
-    url('../fonts/hathorock.woff2?t=1724666242147') format('woff2'),
-    url('../fonts/hathorock.woff?t=1724666242147') format('woff'),
-    url('../fonts/hathorock.ttf?t=1724666242147') format('truetype'),
+    url('../fonts/hathorock.woff2?t=1724669789900') format('woff2'),
+    url('../fonts/hathorock.woff?t=1724669789900') format('woff'),
+    url('../fonts/hathorock.ttf?t=1724669789900') format('truetype'),
     url('../fonts/hathorock.svg#hathorock') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -177,7 +177,7 @@
 .h-asterisk:before { content: "\2a"; }
 .h-plus:before { content: "\2b"; }
 .h-coma:before { content: "\2c"; }
-.h-hyphen:before { content: "\2d"; }
+.h-minus:before { content: "\2d"; }
 .h-period:before { content: "\2e"; }
 .h-slash:before { content: "\2f"; }
 .h-0:before { content: "\30"; }
@@ -260,6 +260,7 @@
 .h-braceright:before { content: "\7d"; }
 .h-tilde:before { content: "\7e"; }
 .h-iexcl:before { content: "\a1"; }
+.h-cent:before { content: "\a2"; }
 .h-sterling:before { content: "\a3"; }
 .h-curren:before { content: "\a4"; }
 .h-yen:before { content: "\a5"; }
@@ -270,7 +271,10 @@
 .h-ordf:before { content: "\aa"; }
 .h-laquo:before { content: "\ab"; }
 .h-reg:before { content: "\ae"; }
+.h-plusmn:before { content: "\b1"; }
 .h-para:before { content: "\b6"; }
+.h-middot:before { content: "\b7"; }
+.h-cedil:before { content: "\b8"; }
 .h-raquo:before { content: "\bb"; }
 .h-iquest:before { content: "\bf"; }
 .h-Agrave:before { content: "\c0"; }
@@ -285,6 +289,7 @@
 .h-Eacute:before { content: "\c9"; }
 .h-Ecric:before { content: "\ca"; }
 .h-Euml:before { content: "\cb"; }
+.h-Oslash:before { content: "\d8"; }
 .h-Omacron:before { content: "\14c"; }
 .h-euro:before { content: "\20ac"; }
 .h-bug:before { content: "\260e"; }
