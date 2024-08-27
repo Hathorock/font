@@ -45,10 +45,14 @@ h1 {
   background-color: #eee;
   opacity: .3;
 }
+.char div.hidden {
+  display: none;
+}
 .char div.rock {
   display: inline-block;
   background-color: #fff;
   opacity: 1;
+  display: inline-block;
 }
 
 p.result {

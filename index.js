@@ -2,22 +2,20 @@ var char = document.querySelector('.char')
 var input = document.querySelector('input')
 function showChar(a,z, hide) {
   for (var i=a; i<z; i++) {
-    if (!hide || glyphs[i]) {
-      var d = document.createElement('DIV')
-      d.innerText = String.fromCharCode(i)
-      d.className = glyphs[i] ? 'rock' : ''
-      d.title = (glyphs[i] ? glyphs[i].name + ' - ' : '') + '0x' + i.toString(16) + ' - ' + i;
-      char.appendChild(d);
-      d.addEventListener('click', function(e) {
-        var start = input.selectionStart;
-        input.value = input.value.substring(0,start) + e.target.innerText + input.value.substring(start);
-        update(input.value);
-        var scrollTop = document.documentElement.scrollTop
-        input.focus();
-        input.selectionStart = input.selectionEnd = start +1;
-        document.documentElement.scrollTop = scrollTop
-      })
-    }
+    var d = document.createElement('DIV')
+    d.innerText = String.fromCharCode(i)
+    d.className = (glyphs[i] ? 'rock' : '') + (hide ? ' hidden' : '')
+    d.title = (glyphs[i] ? glyphs[i].name + ' - ' : '') + '0x' + i.toString(16) + ' - ' + i;
+    char.appendChild(d);
+    d.addEventListener('click', function(e) {
+      var start = input.selectionStart;
+      input.value = input.value.substring(0,start) + e.target.innerText + input.value.substring(start);
+      update(input.value);
+      var scrollTop = document.documentElement.scrollTop
+      input.focus();
+      input.selectionStart = input.selectionEnd = start +1;
+      document.documentElement.scrollTop = scrollTop
+    })
   }
 }
 

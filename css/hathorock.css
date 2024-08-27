@@ -5,11 +5,11 @@
  */
 @font-face {
   font-family: "hathorock";
-  src: url('../fonts/hathorock.eot?t=1724669789900');
+  src: url('../fonts/hathorock.eot?t=1724769321885');
   src: url('../fonts/hathorock.eot?#iefix') format('eot'),
-    url('../fonts/hathorock.woff2?t=1724669789900') format('woff2'),
-    url('../fonts/hathorock.woff?t=1724669789900') format('woff'),
-    url('../fonts/hathorock.ttf?t=1724669789900') format('truetype'),
+    url('../fonts/hathorock.woff2?t=1724769321885') format('woff2'),
+    url('../fonts/hathorock.woff?t=1724769321885') format('woff'),
+    url('../fonts/hathorock.ttf?t=1724769321885') format('truetype'),
     url('../fonts/hathorock.svg#hathorock') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -226,7 +226,7 @@
 .h-bracketleft:before { content: "\5b"; }
 .h-backslash:before { content: "\5c"; }
 .h-bracketright:before { content: "\5d"; }
-.h-asciicircum:before { content: "\5e"; }
+.h-circ:before { content: "\5e"; }
 .h-underscore:before { content: "\5f"; }
 .h-grave:before { content: "\60"; }
 .h-a:before { content: "\61"; }
@@ -270,12 +270,23 @@
 .h-copy:before { content: "\a9"; }
 .h-ordf:before { content: "\aa"; }
 .h-laquo:before { content: "\ab"; }
+.h-not:before { content: "\ac"; }
 .h-reg:before { content: "\ae"; }
+.h-macr:before { content: "\af"; }
+.h-deg:before { content: "\b0"; }
 .h-plusmn:before { content: "\b1"; }
+.h-sup2:before { content: "\b2"; }
+.h-sup3:before { content: "\b3"; }
+.h-acute:before { content: "\b4"; }
 .h-para:before { content: "\b6"; }
 .h-middot:before { content: "\b7"; }
 .h-cedil:before { content: "\b8"; }
+.h-sup1:before { content: "\b9"; }
+.h-ordm:before { content: "\ba"; }
 .h-raquo:before { content: "\bb"; }
+.h-frac14:before { content: "\bc"; }
+.h-frac12:before { content: "\bd"; }
+.h-frac34:before { content: "\be"; }
 .h-iquest:before { content: "\bf"; }
 .h-Agrave:before { content: "\c0"; }
 .h-Aacute:before { content: "\c1"; }
@@ -289,8 +300,24 @@
 .h-Eacute:before { content: "\c9"; }
 .h-Ecric:before { content: "\ca"; }
 .h-Euml:before { content: "\cb"; }
+.h-Igrave:before { content: "\cc"; }
+.h-Iacute:before { content: "\cd"; }
+.h-Icirc:before { content: "\ce"; }
+.h-Iuml:before { content: "\cf"; }
+.h-ETH:before { content: "\d0"; }
+.h-Ntilde:before { content: "\d1"; }
+.h-Ograve:before { content: "\d2"; }
+.h-Oacute:before { content: "\d3"; }
+.h-Ocirc:before { content: "\d4"; }
+.h-Otilde:before { content: "\d5"; }
+.h-Ouml:before { content: "\d6"; }
+.h-times:before { content: "\d7"; }
 .h-Oslash:before { content: "\d8"; }
+.h-Amacron:before { content: "\100"; }
+.h-Emacron:before { content: "\112"; }
+.h-Imacron:before { content: "\12a"; }
 .h-Omacron:before { content: "\14c"; }
+.h-Umacron:before { content: "\16a"; }
 .h-euro:before { content: "\20ac"; }
 .h-bug:before { content: "\260e"; }
 .h-hand:before { content: "\261a"; }
