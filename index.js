@@ -9,8 +9,13 @@ function showChar(a,z, hide) {
       d.title = (glyphs[i] ? glyphs[i].name + ' - ' : '') + '0x' + i.toString(16) + ' - ' + i;
       char.appendChild(d);
       d.addEventListener('click', function(e) {
-        input.value = input.value + e.target.innerText;
-        update(input.value)
+        var start = input.selectionStart;
+        input.value = input.value.substring(0,start) + e.target.innerText + input.value.substring(start);
+        update(input.value);
+        var scrollTop = document.documentElement.scrollTop
+        input.focus();
+        input.selectionStart = input.selectionEnd = start +1;
+        document.documentElement.scrollTop = scrollTop
       })
     }
   }
@@ -36,13 +41,13 @@ function update(e) {
     d.innerText = k;
     res.appendChild(d);
   })
-  if (!e.type || e.type !== 'keyup') {
+  if (!e.type || e.type === 'change') {
     var url = new URL(document.location)
     url.search = 'q=' + value;
     history.replaceState(null, null, url)
   }
 }
-document.querySelector('input').addEventListener('keyup', update)
+document.querySelector('input').addEventListener('input', update)
 document.querySelector('input').addEventListener('change', update)
 
 // Get initial query
@@ -53,3 +58,7 @@ document.location.search.replace(/^\?/,'').split('&').forEach(function(s) {
     update(t[1])
   }
 })
+if (!input.value) {
+  input.value = '☎ HATHŌROCK';
+  update(input.value)
+}

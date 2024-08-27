@@ -7,6 +7,21 @@ input {
   width: 100%;
   font-size: 1em;
 }
+#header {
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: .5em;
+  box-sizing: border-box;
+  z-index: 1;
+}
+#header p{
+  font-size: 2em;
+  margin: .25em 0;
+}
 h1 {
   font-weight: normal;
   font-size: 4em;
@@ -39,9 +54,10 @@ h1 {
 p.result {
   display: block;
   font-size: 4em;
-  margin: 0 0 .5em;
+  margin: 0 0 .25em;
   border-left: 1px solid #ccc;
   position: relative;
+  margin-top: 2.7em;
 }
 p.result span {
   position: relative;
