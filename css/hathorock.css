@@ -5,11 +5,11 @@
  */
 @font-face {
   font-family: "hathorock";
-  src: url('../fonts/hathorock.eot?t=1727255196098');
+  src: url('../fonts/hathorock.eot?t=1727260200718');
   src: url('../fonts/hathorock.eot?#iefix') format('eot'),
-    url('../fonts/hathorock.woff2?t=1727255196098') format('woff2'),
-    url('../fonts/hathorock.woff?t=1727255196098') format('woff'),
-    url('../fonts/hathorock.ttf?t=1727255196098') format('truetype'),
+    url('../fonts/hathorock.woff2?t=1727260200718') format('woff2'),
+    url('../fonts/hathorock.woff?t=1727260200718') format('woff'),
+    url('../fonts/hathorock.ttf?t=1727260200718') format('truetype'),
     url('../fonts/hathorock.svg#hathorock') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -319,7 +319,7 @@
 .h-Ucirc:before { content: "\db"; }
 .h-Uuml:before { content: "\dc"; }
 .h-Yacute:before { content: "\dd"; }
-.h-thorn:before { content: "\de"; }
+.h-Thorn:before { content: "\de"; }
 .h-szlig:before { content: "\df"; }
 .h-agrave:before { content: "\e0"; }
 .h-aacute:before { content: "\e1"; }
@@ -333,6 +333,26 @@
 .h-eacute:before { content: "\e9"; }
 .h-ecirc:before { content: "\ea"; }
 .h-euml:before { content: "\eb"; }
+.h-igrave:before { content: "\ec"; }
+.h-iacute:before { content: "\ed"; }
+.h-icirc:before { content: "\ee"; }
+.h-iuml:before { content: "\ef"; }
+.h-eth:before { content: "\f0"; }
+.h-ntilde:before { content: "\f1"; }
+.h-ograve:before { content: "\f2"; }
+.h-oacute:before { content: "\f3"; }
+.h-ocirc:before { content: "\f4"; }
+.h-otilde:before { content: "\f5"; }
+.h-ouml:before { content: "\f6"; }
+.h-divide:before { content: "\f7"; }
+.h-oslash:before { content: "\f8"; }
+.h-ugrave:before { content: "\f9"; }
+.h-uacute:before { content: "\fa"; }
+.h-ucirc:before { content: "\fb"; }
+.h-uuml:before { content: "\fc"; }
+.h-yacute:before { content: "\fd"; }
+.h-thorn:before { content: "\fe"; }
+.h-yuml:before { content: "\ff"; }
 .h-Amacron:before { content: "\100"; }
 .h-Emacron:before { content: "\112"; }
 .h-Imacron:before { content: "\12a"; }
